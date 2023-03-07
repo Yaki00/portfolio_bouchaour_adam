@@ -1,0 +1,10 @@
+.parallax{
+    padding-top: 100px;
+    width: 4000px;
+    height: 100px;
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
+background-position: center; /* Centre la position de l'image */
+background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+background-image: url("https://f.hellowork.com/blogdumoderateur/2021/12/etude-apec-developpeur-informatique.jpg");
+}
