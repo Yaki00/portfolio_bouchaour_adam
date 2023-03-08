@@ -121,21 +121,33 @@ nav a {
   height: 50px;
   margin-left:45%;
   margin-right: 45%;
+  display: block;
   background-color: white;
   background-size: 200% auto;
   transition: 0.2s;
+  position: relative;
   
 }
 .btn-cv a {
   color: black;
   font-size: 20px;
+  text-align: center;
 }
-.btn-cv:hover{
-  animation: changecouleur 2s linear ;
-  background-position: 0 0;
-  cursor: pointer;
+.btn-cvbis{
+  transition: all 0.3s linear 0s;
   background-color: #f3ba2f;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
+.btn-cv:hover .btn-cvbis{
+  width: 100%;
+  cursor: pointer;
+}
+
+
 
 
 .gifhome{
