@@ -1,0 +1,305 @@
+
+.jauge {
+    width: 300px;
+    height: 12px;
+    display: block;
+    background-color: #303030;
+    position: relative;
+    border-radius: 10px;
+}
+ 
+/* Remplissage de gauche à droite */
+.jauge-remplissage1 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog1 3s forwards;
+}
+.jauge-remplissage2 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog2 3s forwards;
+}
+.jauge-remplissage3 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog3 3s forwards;
+}
+.jauge-remplissage4 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog4 3s forwards;
+}
+.jauge-remplissage5 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog5 3s forwards;
+}
+.jauge-remplissage6 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog6 3s forwards;
+}
+.jauge-remplissage7 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog7 3s forwards;
+}
+.jauge-remplissage8 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog8 3s forwards;
+}
+.jauge-remplissage9 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog9 3s forwards;
+}
+.jauge-remplissage10 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog10 3s forwards;
+}
+.jauge-remplissage11 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog11 3s forwards;
+}
+.jauge-remplissage12 {
+    transition: all 0.3s linear 0s;
+    background-color: #33BEE5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    animation: prog12 3s forwards;
+}
+ 
+@keyframes prog1 {
+    0% {width: 0%;}
+    100% {width: 80%;}
+}
+@keyframes prog2 {
+    0% {width: 0%;}
+    100% {width: 55%;}
+}
+@keyframes prog3 {
+    0% {width: 0%;}
+    100% {width: 40%;}
+}
+@keyframes prog4 {
+    0% {width: 0%;}
+    100% {width: 30%;}
+}
+@keyframes prog5 {
+    0% {width: 0%;}
+    100% {width: 50%;}
+}
+@keyframes prog6 {
+    0% {width: 0%;}
+    100% {width: 40%;}
+}
+@keyframes prog7 {
+    0% {width: 0%;}
+    100% {width: 20%;}
+}
+@keyframes prog8 {
+    0% {width: 0%;}
+    100% {width: 60%;}
+}
+@keyframes prog9 {
+    0% {width: 0%;}
+    100% {width: 60%;}
+}
+@keyframes prog10 {
+    0% {width: 0%;}
+    100% {width: 80%;}
+}
+@keyframes prog11 {
+    0% {width: 0%;}
+    100% {width: 80%;}
+}
+@keyframes prog12 {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+p{
+    width: 100px;
+}
+
+.partie{
+    display: grid;
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.partie1{
+    grid-column: 1;
+    grid-row: 1;
+    width: 700px;
+    height: 700px;
+}
+.partie2{
+    width: 700px;
+    height: 700px;
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.compétance{
+    display: flex;
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    text-shadow: 1px 1px 1px;
+    
+}
+
+.box{
+    transform: rotate(270deg);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 80px;
+}
+svg{
+    height: 150px;
+    width:200px;
+}
+
+.cercle1 circle{
+    fill: none;
+    stroke: orange;
+    stroke-width: 10px;
+    transform: translate(5px,5px);
+    stroke-linecap:round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+.cercle1 circle:nth-child(1){
+    stroke: #e6e6e6;
+    stroke-dashoffset: 0;
+}
+.cercle1 circle:nth-child(2){
+    animation: circle1 2s forwards;
+}
+
+.cercle2 circle{
+    fill: none;
+    stroke: orange;
+    stroke-width: 10px;
+    transform: translate(5px,5px);
+    stroke-linecap:round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+
+}
+.cercle2 circle:nth-child(1){
+    stroke: #e6e6e6;
+    stroke-dashoffset: 0;
+}
+.cercle2 circle:nth-child(2){
+    animation: circle2 2s forwards;
+}
+
+@keyframes circle1{
+    to{
+        stroke-dashoffset: 242;
+    }
+}
+@keyframes circle2{
+    to{
+        stroke-dashoffset: 176;
+    }
+}
+
+.pourc1{
+    position: absolute;
+    transform: rotate(-270deg);
+    top: 30%;
+    right: 45%;
+    font-size: 2em;
+    font-weight: 800;
+    color: orange;
+}
+.text1{
+    position: absolute;
+    transform: rotate(-270deg);
+    top: 20%;
+    right: 80%;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: orange;
+}
