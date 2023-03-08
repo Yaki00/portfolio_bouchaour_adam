@@ -173,3 +173,23 @@ nav a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.partphoto{
+  border: solid 1px black;
+  border-radius:150px;
+  width: 300px;
+  height: 300px;
+}
+
+.imgprofil{
+  width: 140px;
+  margin-top: 20%;
+  margin-left: 0%;
+}
+.blocpresentation{
+  display: flex;
+}
+.texteprofil1{
+  margin-top: 20px;
+  margin-left: 50px ;
+}
