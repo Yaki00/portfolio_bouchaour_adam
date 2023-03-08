@@ -38,7 +38,11 @@ nav a {
   height: 40px;
   display: flex;
   justify-content: space-around;
+  margin-right: 5%;
   
+}
+.gauche{
+  margin-left: 5%;
 }
 
 .Menu1 {
