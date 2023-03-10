@@ -258,6 +258,33 @@ nav a {
 }
 
 .classecvband{
+  margin-top: 20%;
+  height: 500px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
+.classecvband h1{
+  text-align: center;
+}
+.classecvbandsub{
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonprof{
+  margin-top: 10%;
+  width: 100px;
+  height: 40px;
+  background-color: #f3ba2f;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.buttonprof a {
+  color: black;
+  width: 100%;
+  height: 100%;
+}
